@@ -1,15 +1,15 @@
 $(function(){
   $.easing.def = 'easeOutBack';
   
-  $('.poly').click(function(){
-    $('.poly').animate({'opacity':0},300)
+  $('.name').click(function(){
+    $('.name').animate({'opacity':0},300)
     setTimeout(animate(),300)
   })
   animate()
   
   function animate(){
   
-  $('.poly').each(function(i){
+  $('.name').each(function(i){
     time=200+(100*i)
     icon=Math.floor((Math.random()*16));
     $(this).css({

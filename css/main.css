@@ -1,13 +1,41 @@
 section {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 }
 .main {
   width: 100vw;
   height: 100vh;
-  background-color: peachpuff;
+}
+#zero {
+  background-color: black;
 }
 #one {
   height: 100vh;
   background-color: dodgerblue;
+}
+div {
+  position: relative;
+
+  background-color: black;
+}
+svg {
+  position: absolute;
+}
+#name {
+  height: 80vh;
+  width: 80vw;
+  margin-left: 100px;
+}
+h1 { 
+  font-family: 'Shadows Into Light Two', cursive; 
+  text-align: center;
+  font-weight: 400; 
+  margin: 0;
+  color: white; 
+  text-transform: uppercase;
+}
+.down {
+  height: 30px;
+  width: 10%;
+  background-color: white;
 }
