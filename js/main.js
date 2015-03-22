@@ -6,9 +6,15 @@ $(function(){
     setTimeout(animate(),300)
   })
   animate()
+
   var delay = setTimeout(function(){
     $(".hidden").removeClass("hidden");
-     }, 6500) 
+     }, 7500) 
+
+  $( ".down" ).click(function() {
+  $( "#navigation" ).fadeTo( "slow", 0.8 );
+  });
+
   function animate(){
   
   $('.name').each(function(i){
