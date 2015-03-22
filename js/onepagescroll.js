@@ -261,22 +261,22 @@
     }
 
 
-    function init_scroll(event, delta) {
-        deltaOfInterest = delta;
-        var timeNow = new Date().getTime();
-        // Cancel scroll if currently animating or within quiet period
-        if(timeNow - lastAnimation < quietPeriod + settings.animationTime) {
-            event.preventDefault();
-            return;
-        }
+    // function init_scroll(event, delta) {
+    //     deltaOfInterest = delta;
+    //     var timeNow = new Date().getTime();
+    //     // Cancel scroll if currently animating or within quiet period
+    //     if(timeNow - lastAnimation < quietPeriod + settings.animationTime) {
+    //         event.preventDefault();
+    //         return;
+    //     }
 
-        if (deltaOfInterest < 0) {
-          el.moveDown()
-        } else {
-          el.moveUp()
-        }
-        lastAnimation = timeNow;
-    }
+    //     if (deltaOfInterest < 0) {
+    //       el.moveDown()
+    //     } else {
+    //       el.moveUp()
+    //     }
+    //     lastAnimation = timeNow;
+    // }
 
     // Prepare everything before binding wheel scroll
 
@@ -386,39 +386,39 @@
       responsive();
     }
 
-    if(settings.keyboard == true) {
-      $(document).keydown(function(e) {
-        var tag = e.target.tagName.toLowerCase();
+    // if(settings.keyboard == true) {
+    //   $(document).keydown(function(e) {
+    //     var tag = e.target.tagName.toLowerCase();
 
-        if (!$("body").hasClass("disabled-onepage-scroll")) {
-          switch(e.which) {
-            case 38:
-              if (tag != 'input' && tag != 'textarea') el.moveUp()
-            break;
-            case 40:
-              if (tag != 'input' && tag != 'textarea') el.moveDown()
-            break;
-            case 32: //spacebar
-              if (tag != 'input' && tag != 'textarea') el.moveDown()
-            break;
-            case 33: //pageg up
-              if (tag != 'input' && tag != 'textarea') el.moveUp()
-            break;
-            case 34: //page dwn
-              if (tag != 'input' && tag != 'textarea') el.moveDown()
-            break;
-            case 36: //home
-              el.moveTo(1);
-            break;
-            case 35: //end
-              el.moveTo(total);
-            break;
-            default: return;
-          }
-        }
+    //     if (!$("body").hasClass("disabled-onepage-scroll")) {
+    //       switch(e.which) {
+    //         case 38:
+    //           if (tag != 'input' && tag != 'textarea') el.moveUp()
+    //         break;
+    //         case 40:
+    //           if (tag != 'input' && tag != 'textarea') el.moveDown()
+    //         break;
+    //         case 32: //spacebar
+    //           if (tag != 'input' && tag != 'textarea') el.moveDown()
+    //         break;
+    //         case 33: //pageg up
+    //           if (tag != 'input' && tag != 'textarea') el.moveUp()
+    //         break;
+    //         case 34: //page dwn
+    //           if (tag != 'input' && tag != 'textarea') el.moveDown()
+    //         break;
+    //         case 36: //home
+    //           el.moveTo(1);
+    //         break;
+    //         case 35: //end
+    //           el.moveTo(total);
+    //         break;
+    //         default: return;
+    //       }
+    //     }
 
-      });
-    }
+    //   });
+    // }
     return false;
   }
 

@@ -5,6 +5,7 @@ $(function(){
     $('.name').animate({'opacity':0},300)
     setTimeout(animate(),300)
   })
+
   animate()
 
   var delay = setTimeout(function(){

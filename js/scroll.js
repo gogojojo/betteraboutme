@@ -15,7 +15,26 @@ $(function() {
                                       // the browser's width is less than 600, the fallback will kick in.
      direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
   });
+
   $('.down').click(function(){
    $(".main").moveDown(); 
-  })
+  });
+
+  $('.about').click(function(){
+   $(".main").moveTo(2);
+  });
+
+  $('.work').click(function(){
+   $(".main").moveTo(3);
+  });
+
+  $('.skills').click(function(){
+   $(".main").moveTo(4);
+  });
+
+  $('.contact').click(function(){
+   $(".main").moveTo(5);
+  });
+  
+
 });
