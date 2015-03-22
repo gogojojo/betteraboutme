@@ -10,13 +10,10 @@ section {
   background-color: black;
 }
 #one {
-  height: 100vh;
-  background-color: dodgerblue;
+  background-color: white;
 }
 div {
   position: relative;
-
-  background-color: black;
 }
 svg {
   position: absolute;
@@ -26,6 +23,10 @@ svg {
   width: 90vw;
   margin-left: 4vw;
   margin-top: -3vh;
+}
+#about {
+  height: 100vh;
+  width: 100vw;
 }
 h1#title { 
   font-family: 'Oswald', sans-serif;
