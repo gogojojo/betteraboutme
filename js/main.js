@@ -6,10 +6,16 @@ $(function(){
     setTimeout(animate(),300)
   })
 
-  animate()
   $('.down').click(function(){
-    animateabout()
+    $('.info').animate({'opacity':0},300)
+    setTimeout(animateabout(),300)
   })
+
+  $('.about').click(function(){
+    $('.info').animate({'opacity':0},300)
+    setTimeout(animateabout(),300)
+  })
+
   var delay = setTimeout(function(){
     $(".hidden").removeClass("hidden");
      }, 7500) 
@@ -18,6 +24,8 @@ $(function(){
   $( "#navigation" ).fadeTo( 900, 0.8 );
   });
 
+  animate()
+  animateabout()
   function animateabout(){
 
       $('.info').each(function(i){
