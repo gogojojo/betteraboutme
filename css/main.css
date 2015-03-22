@@ -33,7 +33,7 @@ h1#title {
   font-weight: 400; 
   font-size: 21px;
   position: relative;
-  bottom: 95px;
+  bottom: 12vh;
   margin: 0;
   color: white; 
   text-transform: uppercase;
@@ -54,10 +54,13 @@ h2 {
   margin-left: 39%;
   margin-bottom: 20px;
   color: white;
-  bottom: 60px;
+  bottom: 8vh ;
   border-radius: 10px;
   border: white 10px solid;
 }
-.down:hover {
+#learn:hover {
   opacity: 0.5;
+}
+.hidden {
+  visibility: hidden;
 }

@@ -6,7 +6,9 @@ $(function(){
     setTimeout(animate(),300)
   })
   animate()
-  
+  var delay = setTimeout(function(){
+    $(".hidden").removeClass("hidden");
+     }, 6500) 
   function animate(){
   
   $('.name').each(function(i){
@@ -17,7 +19,7 @@ $(function(){
     }).delay(time).animate({
       'opacity':'1',
       'top':'0',
-      'left':'0'
+      'left':'0',
     },700)
   })
   }
