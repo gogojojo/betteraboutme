@@ -22,20 +22,42 @@ svg {
   position: absolute;
 }
 #name {
-  height: 80vh;
-  width: 80vw;
-  margin-left: 100px;
+  height: 90vh;
+  width: 90vw;
+  margin-left: 4vw;
+  margin-top: -3vh;
 }
-h1 { 
-  font-family: 'Shadows Into Light Two', cursive; 
+h1#title { 
+  font-family: 'Oswald', sans-serif;
   text-align: center;
   font-weight: 400; 
+  font-size: 21px;
+  position: relative;
+  bottom: 95px;
   margin: 0;
   color: white; 
   text-transform: uppercase;
 }
+h2 {
+  font-family: 'Oswald', sans-serif;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 2vw;
+  margin: 0;
+
+}
 .down {
-  height: 30px;
-  width: 10%;
-  background-color: white;
+  text-align: center;
+  height: 40px;
+  width: 20%;
+  margin-right: 40%;
+  margin-left: 39%;
+  margin-bottom: 20px;
+  color: white;
+  bottom: 60px;
+  border-radius: 10px;
+  border: white 10px solid;
+}
+.down:hover {
+  opacity: 0.5;
 }
