@@ -1,0 +1,24 @@
+.contactinfo {
+  position: absolute;
+  top: 35vh;
+  text-align: center;
+  width: 100%;
+}
+.contactinfo h2 {
+  font-weight: 700;
+  font-size: 56px;
+}
+.contactinfo img {
+  height: 120px;
+  margin: 0 40px;
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
+.contactinfo p a {
+  font-size: 40px;
+  color: #4C729A;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}

@@ -9,12 +9,17 @@
 }
 #bar {
   position: absolute;
-  width: 15vw;
-  background-color: blue;
-  height: 5vh;
+  width: 10vw;
+  background-color: lightblue;
+  height: 50px;
   top: 20vh;
+  color: white;
   opacity: 0;
   z-index: 9999;
+  text-align: center;
+}
+#bar h2 {
+  font-weight: 400;
 }
 .hidden {
   display: none;
