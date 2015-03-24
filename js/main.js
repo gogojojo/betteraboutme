@@ -16,17 +16,20 @@ $(function(){
     $(".hidden").removeClass("hidden");
      }, 2000) 
 
-  // $( ".down" ).click(function() {
-  // $( "#navigation" ).fadeTo( 900, 0.8 );
-  // });
+  $( ".down" ).click(function() {
+  $( "#bar" ).fadeTo( 900, 1 );
+  });
 $("#bar").click(function(){
   $("#navigation").removeClass("hidden");
-  $( "#navigation" ).fadeTo( 900, 0.8 );
+  $( "#bar" ).fadeTo( 900, 0 );
+  $( "#navigation" ).fadeTo( 900, 1 );
   $("#bar").addClass("hidden");
 })
 $("#close").click(function(){
   $("#navigation").addClass("hidden");
   $("#bar").removeClass("hidden");
+  $( "#navigation" ).fadeTo( 900, 0 );
+  $( "#bar" ).fadeTo( 900, 1 );
 })
 
   animate()
