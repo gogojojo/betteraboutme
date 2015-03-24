@@ -1,3 +1,23 @@
+#landscape {
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 99999;
+  visibility: hidden;
+}
+#landscape h1 {
+  font-size: 6vh;
+  padding-top: 20%;
+  z-index: 9999999;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  vertical-align: middle;
+}
 section {
   height: 100vh;
   width: 100vw;
