@@ -1,15 +1,21 @@
 $(function(){
   $.easing.def = 'easeOutBack';
   
-
-  $('.down').click(function(){
-    $('.info').animate({'opacity':0},300)
-    setTimeout(animateabout(),300)
-  })
-
   $('.about').click(function(){
     $('.info').animate({'opacity':0},300)
     setTimeout(animateabout(),300)
+  })
+  $('.werk').click(function(){
+    $('.work').animate({'opacity':0},300)
+    setTimeout(animatework(),300)
+  })
+  $('.skill').click(function(){
+    $('.skills').animate({'opacity':0},300)
+    setTimeout(animateskills(),300)
+  })
+  $('.contacts').click(function(){
+    $('.contact').animate({'opacity':0},300)
+    setTimeout(animatecontact(),300)
   })
 
   var delay = setTimeout(function(){
@@ -37,6 +43,48 @@ $("#close").click(function(){
   function animateabout(){
 
       $('.info').each(function(i){
+        time=200+(50*i)
+        icon=Math.floor((Math.random()*16));
+        $(this).css({
+          'left':'-2000px',
+        }).delay(time).animate({
+          'opacity':'1',
+          'top':'0',
+          'left':'0',
+        },700)
+      })
+    }
+    function animatework(){
+
+      $('.work').each(function(i){
+        time=200+(50*i)
+        icon=Math.floor((Math.random()*16));
+        $(this).css({
+          'left':'-2000px',
+        }).delay(time).animate({
+          'opacity':'1',
+          'top':'0',
+          'left':'0',
+        },700)
+      })
+    }
+    function animateskills(){
+
+      $('.skills').each(function(i){
+        time=200+(50*i)
+        icon=Math.floor((Math.random()*16));
+        $(this).css({
+          'left':'-2000px',
+        }).delay(time).animate({
+          'opacity':'1',
+          'top':'0',
+          'left':'0',
+        },700)
+      })
+    }
+    function animatecontact(){
+
+      $('.contact').each(function(i){
         time=200+(50*i)
         icon=Math.floor((Math.random()*16));
         $(this).css({

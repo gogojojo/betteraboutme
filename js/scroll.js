@@ -24,15 +24,15 @@ $(function() {
    $(".main").moveTo(2);
   });
 
-  $('.work').click(function(){
+  $('.werk').click(function(){
    $(".main").moveTo(3);
   });
 
-  $('.skills').click(function(){
+  $('.skill').click(function(){
    $(".main").moveTo(4);
   });
 
-  $('.contact').click(function(){
+  $('.contacts').click(function(){
    $(".main").moveTo(5);
   });
   
