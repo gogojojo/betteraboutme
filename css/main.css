@@ -37,6 +37,10 @@ svg {
   height: 100vh;
   width: 100vw;
 }
+#contact {
+  height: 100vh;
+  width: 100vw;
+}
 h1#title { 
   font-family: 'Oswald', sans-serif;
   text-align: center;
@@ -63,12 +67,17 @@ h2 {
   margin-right: 40%;
   margin-left: 39%;
   margin-bottom: 20px;
-  color: white;
-  bottom: 8vh ;
+  color: black;
+  bottom: 16vh ;
   border-radius: 10px;
-  border: white 10px solid;
+  border: black 10px solid;
 }
-#learn:hover {
+#learn {
+  border: white 10px solid;
+  color: white;
+  bottom: 8vh;
+}
+.down:hover {
   opacity: 0.5;
 }
 .hidden {

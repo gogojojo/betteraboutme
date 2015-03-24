@@ -22,14 +22,14 @@ $(function(){
 $("#bar").click(function(){
   $("#navigation").removeClass("hidden");
   $( "#bar" ).fadeTo( 900, 0 );
-  $( "#navigation" ).fadeTo( 900, 1 );
+  $( "#navigation" ).fadeTo( 900, .8 );
   $("#bar").addClass("hidden");
 })
 $("#close").click(function(){
   $("#navigation").addClass("hidden");
   $("#bar").removeClass("hidden");
   $( "#navigation" ).fadeTo( 900, 0 );
-  $( "#bar" ).fadeTo( 900, 1 );
+  $( "#bar" ).fadeTo( 900, .8);
 })
 
   animate()
