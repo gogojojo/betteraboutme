@@ -1,0 +1,10 @@
+p.biography {
+  position: absolute;
+  top: 45vh;
+  width: 60%;
+  margin: 0px 20%;
+  font-family: 'Oswald', sans-serif;
+  line-height: 35px;
+  font-size: 22px;
+  font-weight: 300;
+}
