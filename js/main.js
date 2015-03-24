@@ -1,10 +1,6 @@
 $(function(){
   $.easing.def = 'easeOutBack';
   
-  $('.name').click(function(){
-    $('.name').animate({'opacity':0},300)
-    setTimeout(animate(),300)
-  })
 
   $('.down').click(function(){
     $('.info').animate({'opacity':0},300)
