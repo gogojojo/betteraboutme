@@ -1,6 +1,6 @@
 .contactinfo {
   position: absolute;
-  top: 35vh;
+  bottom: 8vh;
   text-align: center;
   width: 100%;
 }
@@ -9,7 +9,7 @@
   font-size: 56px;
 }
 .contactinfo img {
-  height: 120px;
+  height: 17vh;
   margin: 0 40px;
   -webkit-filter: grayscale(0);
   filter: none;
