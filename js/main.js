@@ -31,7 +31,7 @@ $(function(){
     $(".hidden").removeClass("hidden");
      }, 2000) 
 
-  $( ".down" ).click(function() {
+  $( ".home" ).click(function() {
     $( "#bar" ).removeClass('hidden');
     $( "#navigation" ).removeClass('hidden');
     $( "#bar" ).fadeTo( 900, 1 );
