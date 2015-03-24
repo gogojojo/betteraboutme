@@ -18,7 +18,7 @@ $(function(){
 
   var delay = setTimeout(function(){
     $(".hidden").removeClass("hidden");
-     }, 7500) 
+     }, 2000) 
 
   $( ".down" ).click(function() {
   $( "#navigation" ).fadeTo( 900, 0.8 );
@@ -29,7 +29,7 @@ $(function(){
   function animateabout(){
 
       $('.info').each(function(i){
-        time=200+(100*i)
+        time=200+(50*i)
         icon=Math.floor((Math.random()*16));
         $(this).css({
           'left':'-2000px',
@@ -43,7 +43,7 @@ $(function(){
   function animate(){
   
   $('.name').each(function(i){
-    time=200+(100*i)
+    time=200+(20*i)
     icon=Math.floor((Math.random()*16));
     $(this).css({
       'top':'-1000px',
