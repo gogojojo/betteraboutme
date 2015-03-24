@@ -70,15 +70,18 @@ h2 {
   height: 40px;
   width: 20%;
   margin-right: 40%;
-  margin-left: 39%;
-  color: black;
+  margin-left: 40%;
+  color: white;
   bottom: 6vh ;
-  border-radius: 10px;
-  border: black 10px solid;
+  border-radius: 5px;
+  /*border: black 10px solid;*/
+  background-color: tomato;
+  box-shadow: 0px 6px 1px red;
+}
+.down h2 {
+  font-weight: 400;
 }
 #learn {
-  border: white 10px solid;
-  color: white;
   bottom: 6vh;
 }
 .down:hover {
