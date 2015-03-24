@@ -19,7 +19,9 @@ $(function() {
   $('.down').click(function(){
    $(".main").moveDown(); 
   });
-
+  $('.front').click(function(){
+   $(".main").moveTo(1);
+  });
   $('.about').click(function(){
    $(".main").moveTo(2);
   });

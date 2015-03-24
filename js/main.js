@@ -17,13 +17,23 @@ $(function(){
     $('.contact').animate({'opacity':0},300)
     setTimeout(animatecontact(),300)
   })
+  $('.top').click(function(){
+    $('.name').animate({'opacity':0},300)
+    setTimeout(animate(),300)
+  })
+  $('.front').click(function(){
+    $( "#bar" ).addClass('hidden');
+    $( "#navigation" ).fadeTo(400, 0);
+  })
 
   var delay = setTimeout(function(){
     $(".hidden").removeClass("hidden");
      }, 2000) 
 
   $( ".down" ).click(function() {
-  $( "#bar" ).fadeTo( 900, 1 );
+    $( "#bar" ).removeClass('hidden');
+    $( "#navigation" ).removeClass('hidden');
+    $( "#bar" ).fadeTo( 900, 1 );
   });
 $("#bar").click(function(){
   $("#navigation").removeClass("hidden");
@@ -39,7 +49,6 @@ $("#close").click(function(){
 })
 
   animate()
-  animateabout()
   function animateabout(){
 
       $('.info').each(function(i){
