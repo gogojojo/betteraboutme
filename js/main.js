@@ -17,11 +17,12 @@ $(function(){
     $('.contact').animate({'opacity':0},300)
     setTimeout(animatecontact(),300)
   })
-  $('.top').click(function(){
+  $('.front').click(function(){
     $('.name').animate({'opacity':0},300)
     setTimeout(animate(),300)
   })
   $('.front').click(function(){
+
     $( "#bar" ).addClass('hidden');
     $( "#navigation" ).fadeTo(400, 0);
   })
