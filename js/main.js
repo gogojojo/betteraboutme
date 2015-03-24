@@ -20,9 +20,18 @@ $(function(){
     $(".hidden").removeClass("hidden");
      }, 2000) 
 
-  $( ".down" ).click(function() {
+  // $( ".down" ).click(function() {
+  // $( "#navigation" ).fadeTo( 900, 0.8 );
+  // });
+$("#bar").click(function(){
+  $("#navigation").removeClass("hidden");
   $( "#navigation" ).fadeTo( 900, 0.8 );
-  });
+  $("#bar").addClass("hidden");
+})
+$("#close").click(function(){
+  $("#navigation").addClass("hidden");
+  $("#bar").removeClass("hidden");
+})
 
   animate()
   animateabout()

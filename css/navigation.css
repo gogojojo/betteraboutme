@@ -7,3 +7,14 @@
   opacity: 0;
   border-bottom: 4px black solid;
 }
+#bar {
+  position: absolute;
+  width: 20%;
+  background-color: blue;
+  height: 20px;
+  top: 100px;
+  z-index: 9999;
+}
+.hidden {
+  display: none;
+}
