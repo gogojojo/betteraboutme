@@ -1,0 +1,47 @@
+.skillimg {
+  bottom: 31vh;
+  text-align: center;
+}
+.skillimg h3 {
+  position: relative;
+  bottom: 30vh;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 0;
+
+}
+img {
+  height: 70px;
+  filter: gray; /* for IE */
+  filter: grayscale(1); /*fire fox*/
+  -webkit-filter: grayscale(1); /* chrome */  
+}
+/*this shows color and title of tool on hover*/
+.icon {
+  display: inline-block;
+  margin: 0 10px;
+  position: relative; 
+  top: -200px;
+}
+.icon:hover img {
+  height: 70px;
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
+.icon:hover  .title {
+  visibility: visible;
+
+}
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  visibility: hidden;
+  background-color: #FF606E;
+  color: white;
+  opacity: .5;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: center;
+}

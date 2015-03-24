@@ -61,21 +61,21 @@ h2 {
 
 }
 .down {
+  position: absolute;
   text-align: center;
   height: 40px;
   width: 20%;
   margin-right: 40%;
   margin-left: 39%;
-  margin-bottom: 20px;
   color: black;
-  bottom: 16vh ;
+  bottom: 6vh ;
   border-radius: 10px;
   border: black 10px solid;
 }
 #learn {
   border: white 10px solid;
   color: white;
-  bottom: 8vh;
+  bottom: 6vh;
 }
 .down:hover {
   opacity: 0.5;
