@@ -3,23 +3,55 @@
   height: 50vh;
   position: absolute;
   top: 20vh;
-  background-color: darkblue;
+  background-color: white;
   z-index: 999;
   opacity: 0;
 }
+#navigation button {
+  display: block;
+  text-align: center;
+  margin: 23px auto;
+  border-style: none;
+  background-color: lightblue;
+  padding: 5px 15px;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+#navigation button:hover {
+  color: white;
+  opacity: 1;
+}
 #bar {
   position: absolute;
-  width: 10vw;
-  background-color: lightblue;
+  width: 15vw;
+  background-color: white;
   height: 50px;
   top: 20vh;
-  color: white;
   opacity: 0;
   z-index: 9999;
   text-align: center;
 }
+#bar button {
+  display: block;
+  text-align: center;
+  margin: 23px auto;
+  border-style: none;
+  background-color: lightblue;
+  padding: 5px 15px;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+#bar button:hover {
+  color: white;
+  opacity: 1;
+}
 #bar h2 {
-  font-weight: 400;
+  font-weight: 300;
+  padding-top: 3px;
 }
 .hidden {
   display: none;
