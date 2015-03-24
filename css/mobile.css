@@ -47,6 +47,22 @@
   #learn {
     bottom:25vh;
   }
+  #bar {
+    top: 10vh;
+    width: 100%;
+    margin: auto;
+  }
+  #navigation {
+    width: 100%;
+    top: 10vh;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+  }
+  #navigation button {
+    display: inline;
+    margin: 0 20px;
+  }
 }
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
     #name {
@@ -95,6 +111,22 @@
   }
   #learn {
     bottom:25vh;
+  }
+    #bar {
+    top: 10vh;
+    width: 100%;
+    margin: auto;
+  }
+  #navigation {
+    width: 100%;
+    top: 10vh;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+  }
+  #navigation button {
+    display: inline;
+    margin: 0 20px;
   }
 }
 /* iPhone 6+ (portrait) ----------- */
@@ -146,6 +178,22 @@
   #learn {
     bottom:25vh;
   }
+    #bar {
+    top: 10vh;
+    width: 100%;
+    margin: auto;
+  }
+  #navigation {
+    width: 100%;
+    top: 10vh;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+  }
+  #navigation button {
+    display: inline;
+    margin: 0 20px;
+  }
 }
 /* iPhone 4 (portrait) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
@@ -195,5 +243,21 @@
   }
   #learn {
     bottom:25vh;
+  }
+    #bar {
+    top: 5vh;
+    width: 100%;
+    margin: auto;
+  }
+  #navigation {
+    width: 100%;
+    top: 5vh;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+  }
+  #navigation button {
+    display: inline;
+    margin: 0 20px;
   }
 }
