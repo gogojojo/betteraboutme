@@ -29,6 +29,10 @@ svg {
   width: 100vw;
   margin-left: -1vw;
 }
+#skills {
+  height: 100vh;
+  width: 100vw;
+}
 h1#title { 
   font-family: 'Oswald', sans-serif;
   text-align: center;
