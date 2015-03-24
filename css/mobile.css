@@ -48,3 +48,52 @@
     bottom:25vh;
   }
 }
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    #name {
+    margin-top: -10vh;
+  }
+  div#about {
+    margin-top: -150px;
+  }
+  div#work {
+    margin-top: -150px;
+  }
+  div#contact {
+    margin-top: -150px;
+  }
+  div#skills {
+    margin-top: -150px;
+  }
+  .skillimg h3 {
+    bottom: 25vh;
+  }
+  .icon {
+    top: -250px;
+  }
+  .down {
+    width: 50%;
+    margin-left: 25%;
+    height: 100px;
+    bottom: 15vh;
+  }
+  .down h2 {
+    font-size: 50px;
+    padding-top: 10px;
+  }
+  .contactinfo h2 {
+    font-size: 35px;
+  }
+  .contactinfo img {
+    height: 10vh;
+  }
+  .contactinfo {
+    bottom: 25vh;
+  }
+  h1#title {
+    font-size: 35px;
+    bottom: 28vh;
+  }
+  #learn {
+    bottom:25vh;
+  }
+}
