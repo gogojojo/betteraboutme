@@ -28,18 +28,22 @@ svg {
   height: 100vh;
   width: 100vw;
   margin-left: -1vw;
+  margin-top: -35px;
 }
 #skills {
   height: 100vh;
   width: 100vw;
+  margin-top: -35px;
 }
 #work {
   height: 100vh;
   width: 100vw;
+  margin-top: -35px;
 }
 #contact {
   height: 100vh;
   width: 100vw;
+  margin-top: -35px;
 }
 h1#title { 
   font-family: 'Oswald', sans-serif;
