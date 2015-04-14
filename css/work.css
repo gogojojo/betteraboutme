@@ -22,6 +22,9 @@ h1 {
 .accordion ul:hover li:hover a {
   background: rgba(0, 0, 0, 0.4);
 }
+.accordion ul:hover li:hover img {
+  -webkit-filter: blur(1px);
+}
 .accordion ul {
   width: 100%;
   display: table;
