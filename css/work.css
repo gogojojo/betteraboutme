@@ -6,7 +6,7 @@ h1 {
 .accordion {
   width: 80vw;
   left: 10vw;
-  height: 250px;
+  height: 300px;
   border-radius: 15px;
   overflow: hidden;
   position: absolute;
@@ -93,8 +93,8 @@ h1 {
   font-family: 'Oswald', sans-serif;
   text-align: left;
   font-weight: 300;
-  width: 70%;
-  margin: 0 15%;
+  width: 80%;
+  margin: 0 10%;
   font-size: 16.5px;
   height: auto;
 }
